@@ -1,0 +1,17 @@
+@import '../../../styles/mixin.scss';
+
+.header-bar {
+	height: 120px;
+	background-color: $primary-color;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	box-sizing: border-box;
+	padding-top: 30px;
+	align-items: center;
+	.message {
+		width: 34px;
+		height: 34px;
+		padding: 0 15px;
+	}
+}

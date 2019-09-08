@@ -1,0 +1,40 @@
+ @import '../../../styles/mixin.scss';
+
+ .fruit-item{
+    display: flex;
+    flex-direction: column;
+    .img {
+      width: 216px;
+      height: 220px;
+      border-radius: 12px;
+      overflow: hidden;
+      background-color: $bg-color-base;
+      margin-bottom: 15px;
+    }
+    .name {
+      color: $dark2-color;
+      font-size: 24px;
+      margin-bottom: 5px
+    }
+    .info {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 15px;
+      .price1 {
+        font-size: 24px;
+        color: #e64e19;
+      }
+      .price2 {
+        font-size: 20px;
+        color: $light-color;
+        margin-left: 4px;
+        text-decoration:line-through;
+      }
+      .basket {
+        width: 34px;
+        height: 34px;
+        margin-left: 20px;
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+.tags-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  .title {
+    font-size: 28px;
+    color: #666;
+    padding-top: 10px;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,16 @@
+.fruit-bar {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0 30px;
+  margin-bottom: 20px;
+  .title {
+    padding: 30px 0;
+    font-size: 24px;
+    color: #666;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

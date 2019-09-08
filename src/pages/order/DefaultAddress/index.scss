@@ -1,0 +1,50 @@
+.default-address {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .user {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px;
+      .tag {
+        padding: 4px 16px;
+        border-radius: 32px;
+        background: linear-gradient(to right, #ff9919 , #ff5d03);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        .txt {
+          font-size: 20px;
+          color: #fff;
+        }
+      }
+      .name {
+        font-size: 24px;
+        color: #666;
+        margin-right: 10px;
+      }
+      .phone {
+        font-size: 20px;
+        color: #999;
+      }
+    }
+    .address {
+      font-size: 24px;
+      color: #999;
+    }
+  }
+  .icon {
+    width: 16px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,43 @@
+@import '../../../styles/mixin.scss';
+
+.coupon-item {
+  position: relative;
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  .info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    .introduce {
+      display: flex;
+      flex-direction: row;
+      .name {
+        font-size: 24px;
+        color: $dark2-color;
+      }
+      .amount {
+        font-size: 24px;
+        color: red;
+      }
+      .condition {
+        font-size: 20px;
+        color: $light-color;
+      }
+    }
+    .tile {
+      font-size: 20px;
+      color: $light-color;
+    }
+  }
+  .state {
+    padding: 12px 24px;
+    border-radius: 24px;
+    background-color: red;
+    .txt {
+      font-size: 24px;
+      color: #fff;
+    }
+  }
+}

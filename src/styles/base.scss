@@ -1,0 +1,22 @@
+@import './mixin.scss';
+@import '../../node_modules/taro-ui/dist/style/index.scss';
+
+page{
+	font-size: 32px;
+	height: 100%;
+	background-color: $bg-color-base;
+	display: flex;
+	flex-direction: column;
+}
+.page {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+  .b-btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 28px;
+  }
+}
